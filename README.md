@@ -20,17 +20,3 @@ Hydrogen flow constraints using the steady-state Weymouth model.
 Operational limits for both hydrogen and electricity networks.
 Generation and transmission limits for hydrogen turbines.
 Requirements
-To run the model, you will need:
-
-Python 3.x: Programming language for setting up and executing the model.
-GLPK: Open-source solver for MILP problems.
-
-The script will:
-
-Load data for the 4-bus electrical grid and 4-node hydrogen network.
-Set up the MILP problem.
-Solve the optimization problem using GLPK.
-Output the optimal operating cost and flow configurations.
-Model Structure
-data/: Contains input data for the electrical and hydrogen networks.
-models/: Includes the Pyomo model for MILP formulation.
